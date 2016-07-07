@@ -10,39 +10,18 @@
   <script type="text/javascript" src="./typewrite.js"></script>
   <script>
     $(function(){
-    $(".RewritingDiv").t({
+    $(".message").t({
         speed : 200,
         speed_vary : false,
     })
     });
-</script>
+  </script>
 </head>
 <body>
-
-  <div class="RewritingDiv">
-      ここが書き換わります．<a class="switch" onclick="onClickButton();"><u>▽</u></a>
+ <div id="RewritingDiv" class="message">
+    ここが書き換わります
   </div>
-  <script>
-  var buttonCounter = 0;
-function onClickButton(){
-  console.log("OK")
-  
-    if(buttonCounter == 0){
-  document.getElementById(".RewritingDiv").innerHTML =
-      "最初の書き換え<a class="switch" onclick="onClickButton();"><u>▽</u></a>;"
-  buttonCounter++;
-    }
-    else if(buttonCounter == 1){
-  document.getElementById(".RewritingDiv").innerHTML =
-      "2回目の書き換え"<a class="switch" onclick="onClickButton();><u>▽</u></a>;"
-  buttonCounter++;
-    }
-    else if(buttonCounter == 2){
-  document.getElementById(".RewritingDiv").innerHTML =
-      "3回目の書き換え．<br />最初に戻ります<a class="switch" onclick="onClickButton();"><u>▽</u></a>;"
-  buttonCounter = 0;
-    }
-  </script>
+<a href="#" class="switch" onclick="onClickButton();"><u>▽</u></a>
+
 </body>
 </html>
-
