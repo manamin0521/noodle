@@ -19,6 +19,10 @@ body{
 background-image: url("./店内1.jpg");
 background-size: cover;
 }
+.cover img {
+    min-width: 100%;
+    min-height: 100%;    
+}
 
 #RewritingDiv{
 
