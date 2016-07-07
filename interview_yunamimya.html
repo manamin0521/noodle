@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <title>ゆなみや</title>
+  <link rel="stylesheet" href="./interview.css" />
+  <script type="text/javascript" src="./jquery.js"></script>
+  <script type="text/javascript" src="./t.js"></script>
+  <script type="text/javascript" src="./typewrite.js"></script>
+  <script>
+    $(function(){
+    $(".RewritingDiv").t({
+        speed : 200,
+        speed_vary : false,
+    })
+    });
+</script>
+</head>
+<body>
+
+  <div class="RewritingDiv">
+      ここが書き換わります．<a class="switch" onclick="onClickButton();"><u>▽</u></a>
+  </div>
+  <script>
+  var buttonCounter = 0;
+function onClickButton(){
+  console.log("OK")
+  
+    if(buttonCounter == 0){
+  document.getElementById(".RewritingDiv").innerHTML =
+      "最初の書き換え<a class="switch" onclick="onClickButton();"><u>▽</u></a>;"
+  buttonCounter++;
+    }
+    else if(buttonCounter == 1){
+  document.getElementById(".RewritingDiv").innerHTML =
+      "2回目の書き換え"<a class="switch" onclick="onClickButton();><u>▽</u></a>;"
+  buttonCounter++;
+    }
+    else if(buttonCounter == 2){
+  document.getElementById(".RewritingDiv").innerHTML =
+      "3回目の書き換え．<br />最初に戻ります<a class="switch" onclick="onClickButton();"><u>▽</u></a>;"
+  buttonCounter = 0;
+    }
+  </script>
+</body>
+</html>
+
