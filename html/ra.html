@@ -1,0 +1,25 @@
+<IMG SRC="./ra1.png"
+ alt="ラーメン君" width=50 height=50 name="war">
+<SCRIPT language="javaScript">
+<!--
+    var sw=1;
+    image=new Array(9);
+    image[1]="../picture/ra1.png";
+    image[2]="../picture/ra1.png";
+    image[3]="../picture/ra1.png";
+    image[4]="../picture/ra1.png";
+    image[5]="../picture/ra1.png";
+    image[6]="../picture/ra2.png";
+    image[7]="../picture/ra1.png";
+    image[8]="../picture/ra1.png";
+    image[9]="../picture/ra1.png";
+    hyouji();
+    function hyouji()
+    {
+      setTimeout("hyouji()",300);
+      document.war.src=image[sw];
+      sw=sw+1
+      if (sw>9){sw=1;}
+    }
+//-->
+</SCRIPT>
