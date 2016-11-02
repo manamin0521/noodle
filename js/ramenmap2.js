@@ -20,7 +20,7 @@ google.maps.event.addDomListener(window, 'load', function()
     }) ;
     new google.maps.event.addListener( markers[0] , 'click' , function gotoOthersite()
     {
-      location.href ="../html/yunamimya.html";
+      location.href ="./yunamimya.html";
     }) ;
 
     markers[1] = new google.maps.Marker({     //極壱
@@ -29,7 +29,7 @@ google.maps.event.addDomListener(window, 'load', function()
     }) ;
     new google.maps.event.addListener( markers[1] , 'click' , function gotoOthersite()
     {
-      location.href ="../html/gokuichi.html";
+      location.href ="./gokuichi.html";
     }) ;
 
     markers[2] = new google.maps.Marker({     //虚空
@@ -38,7 +38,7 @@ google.maps.event.addDomListener(window, 'load', function()
     }) ;
     new google.maps.event.addListener( markers[2] , 'click' , function gotoOthersite()
     {
-      location.href ="../html/kokuu.html";
+      location.href ="./kokuu.html";
     }) ;
 
     markers[3] = new google.maps.Marker({     //一信
@@ -47,7 +47,7 @@ google.maps.event.addDomListener(window, 'load', function()
     }) ;
     new google.maps.event.addListener( markers[3] , 'click' , function gotoOthersite()
     {
-      location.href ="../html/ichisin.html";
+      location.href ="./ichisin.html";
     }) ;
 
     markers[4] = new google.maps.Marker({     //麺でる
@@ -56,7 +56,7 @@ google.maps.event.addDomListener(window, 'load', function()
     }) ;
     new google.maps.event.addListener( markers[4] , 'click' , function gotoOthersite()
     {
-      location.href ="../html/menderu.html";
+      location.href ="./menderu.html";
     })
 
       // 情報ウィンドウのインスタンスを格納する配列
