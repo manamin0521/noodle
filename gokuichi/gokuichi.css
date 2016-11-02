@@ -1,0 +1,34 @@
+a.switch {
+ -webkit-animation: switchtext 0.5s infinite alternate;
+ -moz-animation: switchtext 0.5s infinite alternate;
+ animation: switchtext 0.5s infinite alternate;
+ font-size: 30px;
+}
+@-webkit-keyframes switchtext {
+ from { opacity: 1.0; }
+ to { opacity: 0; }
+}
+@-moz-keyframes switchtext {
+ from { opacity: 1.0; }
+ to { opacity: 0; }
+}
+@keyframes switchtext {
+ from { opacity: 1.0; }
+ to { opacity: 0; }
+}
+body{
+background-image: url("./gokuichi-tennnai.jpg");
+background-size: cover;
+}
+
+#RewritingDiv .message{
+	background-color:rgba(255,255,255,0.5);
+	height: 200px;
+	font-size: 30px;
+	padding :10px 80px;
+}
+
+#RewritingDiv{
+	font-size: 30px;
+	padding :10px 80px;
+}
