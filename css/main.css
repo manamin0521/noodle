@@ -16,14 +16,9 @@ a.switch {
  from { opacity: 1.0; }
  to { opacity: 0; }
 
-#RewritingDiv .message{
+#RewritingDiv.message{
 	background-color:rgba(255,255,255,0.5);
 	height: 200px;
-	font-size: 30px;
-	padding :10px 80px;
-}
-
-#RewritingDiv{
 	font-size: 30px;
 	padding :10px 80px;
 }
