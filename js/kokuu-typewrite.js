@@ -48,11 +48,6 @@ function onClickButton(){
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
-
-
-
-
-
     else if(buttonCounter == 6){
       document.getElementById("RewritingDiv").innerHTML =
       "<center><img src='./picture/ra1.png' alt='ラーメンくん' /></center><div class='message'>「ありがとうだメン！また来たいと思えるいいお店だったメン！」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
@@ -62,7 +57,4 @@ function onClickButton(){
     else if(buttonCounter == 7){
       location.href ="../ramenmap2.html";
     }
-
-
-
 }

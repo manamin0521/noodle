@@ -56,6 +56,5 @@ function onClickButton(){
     }
      else if(buttonCounter == 7){
        location.href = "../ramenmap2.html";
-
     }
 }

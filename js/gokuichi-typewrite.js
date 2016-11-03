@@ -35,46 +35,25 @@ function onClickButton(){
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
-
-
-
-
-
     else if(buttonCounter == 4){
       document.getElementById("RewritingDiv").innerHTML =
       "<center><img src='./picture/ra1.png' alt='ラーメンくん' /></center><div class='message'>「最後にこのあたりのライバル店を教えてほしいメン！」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
-
-
-
-
     else if(buttonCounter == 5){
       document.getElementById("RewritingDiv").innerHTML =
       "<center><img src='./picture/gokuichi-tentyo.png'　width='150' height='500'></center><div class='message'>「丸重さんは、近いし同じ濃いスープなので意識しています。ですけど、ラーメンを食べる人が増えると嬉しいので、ライバルであり仲間だと思っています。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
-
-
-
-
-
     else if(buttonCounter == 6){
       document.getElementById("RewritingDiv").innerHTML =
       "<center><img src='./picture/ra1.png' alt='ラーメンくん' /></center><div class='message'>「ありがとうだメン！また学校帰りに寄りたいメン！」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
-
-
     else if(buttonCounter == 7){
       location.href ="../ramenmap2.html";
     }
-
-
-
-
-
 }
