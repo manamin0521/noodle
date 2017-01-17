@@ -20,7 +20,7 @@ google.maps.event.addDomListener(window, 'load', function()
     }) ;
     new google.maps.event.addListener( markers[0] , 'click' , function gotoOthersite()
     {
-      location.href ="./yunamimya.html";
+      location.href ="./yunamiya.html";
     }) ;
 
     markers[1] = new google.maps.Marker({     //極壱

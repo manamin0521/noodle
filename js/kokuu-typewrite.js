@@ -19,7 +19,7 @@ function onClickButton(){
     }
     else if(buttonCounter == 1){
       document.getElementById("RewritingDiv").innerHTML =
-      "<center><img src='./picture/ichisin-tentyo.png'　width='150' height='500'></center><div class='message'>「お客様への気遣いは一番大事ですからね。すべてのお客様が満足して帰ってくれるように日々努力しています。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
+      "<center><img src='./picture/kokuu-tentyo.png'　width='150' height='500'></center><div class='message'>「お客様への気遣いは一番大事ですからね。すべてのお客様が満足して帰ってくれるように日々努力しています。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
@@ -31,7 +31,7 @@ function onClickButton(){
     }
     else if(buttonCounter == 3){
       document.getElementById("RewritingDiv").innerHTML =
-      "<center><img src='./picture/ichisin-tentyo.png'　width='150' height='500'></center><div class='message'>「幅広い年代の方が食べに来てくれるので客層はとても広いです。そして女性の方にも食べやすいラーメンなので男女問わず気に入ってもらえると思います。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
+      "<center><img src='./picture/kokuu-tentyo.png'　width='150' height='500'></center><div class='message'>「幅広い年代の方が食べに来てくれるので客層はとても広いです。そして女性の方にも食べやすいラーメンなので男女問わず気に入ってもらえると思います。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
@@ -44,7 +44,7 @@ function onClickButton(){
 
     else if(buttonCounter == 5){
       document.getElementById("RewritingDiv").innerHTML =
-      "<center><img src='./picture/ichisin-tentyo.png'　width='150' height='500'></center><div class='message'>「そうですね、一番大切にしていることは、店のスタイルを変えないことですね。うちのラーメンをおいしいと思って来てくれているお客様のために味はもちろんサービスも同じものを保ち続けることですね。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
+      "<center><img src='./picture/kokuu-tentyo.png'　width='150' height='500'></center><div class='message'>「そうですね、一番大切にしていることは、店のスタイルを変えないことですね。うちのラーメンをおいしいと思って来てくれているお客様のために味はもちろんサービスも同じものを保ち続けることですね。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
@@ -55,6 +55,6 @@ function onClickButton(){
       setTimeout(showmessage(), 5000);
     }
     else if(buttonCounter == 7){
-      location.href ="../ramenmap2.html";
+      location.href ="../ramenmap.html";
     }
 }

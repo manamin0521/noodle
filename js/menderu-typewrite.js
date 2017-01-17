@@ -19,7 +19,7 @@ function onClickButton(){
     }
     else if(buttonCounter == 1){
       document.getElementById("RewritingDiv").innerHTML =
-      "<center><img src='./picture/menderu.png'　width='150' height='500'></center><div class='message'>「麺は極太、味は濃厚。ガッツリ食べてスタミナをつけたい人に向けた大盛ラーメンだよ。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
+      "<center><img src='./picture/menderu-tentyo.png'　width='150' height='500'></center><div class='message'>「麺は極太、味は濃厚。ガッツリ食べてスタミナをつけたい人に向けた大盛ラーメンだよ。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
@@ -31,7 +31,7 @@ function onClickButton(){
     }
     else if(buttonCounter == 3){
       document.getElementById("RewritingDiv").innerHTML =
-      "<center><img src='./picture/menderu.png'　width='150' height='500'></center><div class='message'>「そうだね。昼はサラリーマンや土木関係の方が多くて、夜は学生メインだね。でも休日には家族で食べに来てくれる人もいて、お母さんやお子さんも気に入ってくれてるよ。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
+      "<center><img src='./picture/menderu-tentyo.png'　width='150' height='500'></center><div class='message'>「そうだね。昼はサラリーマンや土木関係の方が多くて、夜は学生メインだね。でも休日には家族で食べに来てくれる人もいて、お母さんやお子さんも気に入ってくれてるよ。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
@@ -44,7 +44,7 @@ function onClickButton(){
     }
     else if(buttonCounter == 5){
       document.getElementById("RewritingDiv").innerHTML =
-      "<center><img src='./picture/menderu.png'　width='150' height='500'></center><div class='message'>「一番の理由は学生さんが多いってことかな。一人暮らしの学生さんたちにはスタミナをつけてもらわなきゃね。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
+      "<center><img src='./picture/menderu-tentyo.png'　width='150' height='500'></center><div class='message'>「一番の理由は学生さんが多いってことかな。一人暮らしの学生さんたちにはスタミナをつけてもらわなきゃね。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
@@ -56,7 +56,7 @@ function onClickButton(){
     }
     else if(buttonCounter == 7){
       document.getElementById("RewritingDiv").innerHTML =
-      "<center><img src='./picture/menderu.png'　width='150' height='500'></center><div class='message'>「うーん、ライバル店は特にないかな。どこのお店もすごいところばかりだから、うちは自分にできることをやり続けるだけかな。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
+      "<center><img src='./picture/menderu-tentyo.png'　width='150' height='500'></center><div class='message'>「うーん、ライバル店は特にないかな。どこのお店もすごいところばかりだから、うちは自分にできることをやり続けるだけかな。」<a href='#' class='switch' onclick='onClickButton();'><u>▼</u></a></div>";
       buttonCounter++;
       setTimeout(showmessage(), 5000);
     }
@@ -67,6 +67,6 @@ function onClickButton(){
       setTimeout(showmessage(), 5000);
     }
     else if(buttonCounter == 9){
-      location.href = "./ramenmap2.html";
+      location.href = "./ramenmap.html";
     }
 }
