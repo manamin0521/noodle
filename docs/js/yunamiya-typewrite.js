@@ -55,6 +55,6 @@ function onClickButton(){
       setTimeout(showmessage(), 5000);
     }
      else if(buttonCounter == 7){
-       location.href = "../ramenmap.html";
+       location.href = "./ramenmap.html";
     }
 }
