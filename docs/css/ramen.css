@@ -1,5 +1,4 @@
 body{
-  background-color:yellow;
   color : #000000;
   font-size:62.5%;
 }
@@ -15,10 +14,9 @@ body{
 
 #contents{
   width:1000px;
-
-min-height:440px;
+  min-height:440px;
   color : #000000;
-  margin-right: 0 auto; //コンテンツにだけ中央寄せを指定
+  margin-right: 0 auto;
   margin-left : 40px;
   margin-top:1.5%;
   margin-bottom: 1.5%;
@@ -28,31 +26,21 @@ min-height:440px;
   border-radius: 15px;
   font-family: 'Meiryo';
   font-size: 500%;
-
   padding-left: 60px;
   padding-top: 60px;
-
   padding-right: 0.5%;
 }
 
-
-
-
 #right{
-
   position: absolute; /* 絶対位置で指定(親ボックス基準) */
   top: 100px;
   right:0px;
-
 }
-
-
 
 #footer{
   width: auto;
   height:80px;
   background-color :red;
-
   font-size:1.4em;
   text-align : center;
   bottom: auto;
