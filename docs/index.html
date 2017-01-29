@@ -3,7 +3,6 @@
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <link rel="stylesheet" href="./css/ramen.css">
   <title>ラーメンくんの修行</title>
   <script Language="JavaScript">
     count = 0;
@@ -18,34 +17,34 @@
 
 <body onLoad="strFade('fedcba9876543210')" bgcolor="red" >
   <div id="container">
-  <span id="strID" style="color:white"><b><font size="7"><h2 align="center"><div style="position:absolute; top:20px; left:300px;">ラーメンくんの修行</h2></font></b></span>
+    <span id="strID" style="color:white"><b><font size="7"><h2><div style="text-align: center;">ラーメンくんの修行</h2></font></b></span>
 
-  <div style="position:absolute; top:140px; left:430px;"><IMG SRC="./ra1.png"
-   alt="ラーメン君" width=400 height=400 name="war" ></div>
-  <SCRIPT language="javaScript">
-      var sw=1;
-      image=new Array(9);
-      image[1]="./picture/ra1.png";
-      image[2]="./picture/ra1.png";
-      image[3]="./picture/ra1.png";
-      image[4]="./picture/ra1.png";
-      image[5]="./picture/ra1.png";
-      image[6]="./picture/ra2.png";
-      image[7]="./picture/ra1.png";
-      image[8]="./picture/ra1.png";
-      image[9]="./picture/ra1.png";
-      hyouji();
-      function hyouji()
-      {
-        setTimeout("hyouji()",300);
-        document.war.src=image[sw];
-        sw=sw+1
-        if (sw>9){sw=1;}
-      }
-  </SCRIPT>
-  <form>
-    <div style="position:absolute; top:580px; left:580px;"><input type="button" value="修行する" onclick="location.href='./ramenhtml.html'"></div>
-  </form>
+    <div style="text-align: center;"><IMG SRC="./ra1.png"
+     alt="ラーメン君" width=400 height=400 name="war" ></div>
+    <SCRIPT language="javaScript">
+        var sw=1;
+        image=new Array(9);
+        image[1]="./picture/ra1.png";
+        image[2]="./picture/ra1.png";
+        image[3]="./picture/ra1.png";
+        image[4]="./picture/ra1.png";
+        image[5]="./picture/ra1.png";
+        image[6]="./picture/ra2.png";
+        image[7]="./picture/ra1.png";
+        image[8]="./picture/ra1.png";
+        image[9]="./picture/ra1.png";
+        hyouji();
+        function hyouji()
+        {
+          setTimeout("hyouji()",300);
+          document.war.src=image[sw];
+          sw=sw+1
+          if (sw>9){sw=1;}
+        }
+    </SCRIPT>
+    <form>
+      <div style="text-align: center;"><input type="button" value="修行する" onclick="location.href='./ramenhtml.html'"></div>
+    </form>
 </div>
 </body>
 </html>
