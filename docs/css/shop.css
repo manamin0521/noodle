@@ -1,24 +1,29 @@
 #gokuichi{
 background-image: url("../picture/gokuichi-tennnai.jpg");
 background-size: cover;
+background-repeat: no-repeat;
 }
 
 #ichishin{
 background-image: url("../picture/ichisin-tennnai.jpg");
 background-size: cover;
+background-repeat: no-repeat;
 }
 
 #kokuu{
 background-image: url("../picture/kokuu-tennai.jpg");
 background-size: cover;
+background-repeat: no-repeat;
 }
 
 #menderu{
 background-image: url("../picture/menderu-tennai.jpg");
 background-size: cover;
+background-repeat: no-repeat;
 }
 
 #yunamiya{
 background-image: url("../picture/yunamiya-tennai.jpg");
 background-size: cover;
+background-repeat: no-repeat;
 }
